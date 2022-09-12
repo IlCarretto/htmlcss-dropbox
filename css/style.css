@@ -75,6 +75,7 @@ header {
     text-align: center;
     display: flex;
     background-color: #b4d0e7;
+    padding-top: 30px;
 }
 
 .first-section h1{
@@ -84,30 +85,56 @@ header {
 
 .img-and-text {
     display: flex;
+    margin-top: 20px;
 }
 
 .text-box {
     width: 30%;
     min-height: 300px;
-    display: flex;
-
-    /* DEBUG */
-    background-color: pink;
+    position: relative;
 }
 
 .text-box > *{
     display: flex;
+    margin-top: 30px;
+}
+
+.free {
+    padding: .8rem 1rem;
+}
+
+.text-box i {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
 }
 
 .img-box {
     width: 70%;
     min-height: 300px;
+}
 
-    /* DEBUG */
-    background-color: aquamarine;
+.img-box img{
+    width: 100%;
 }
 
 /* Second-Section */
+.grid {
+    margin-top: 4rem;
+}
+
+.grid h2{
+    font-size: 2.4rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.grid input{
+    margin: 50px 10px;
+    padding: 1rem;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -117,8 +144,36 @@ header {
 .col {
     width: 30%;
     min-height: 500px;
+    border: 1px solid lightgrey;
+}
 
-    background-color: blue;
+.card-content li{
+    font-size: .9rem;
+}
+
+.free-2{
+    padding: .9rem 1.2rem;
+    font-size: .9rem;
+}
+
+.card-content .single{
+    text-align: center;
+    font-size: .9rem;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.card-content h1, h4{
+    font-weight: 600;
+}
+
+.card-content span{
+    display: block;
+}
+
+hr {
+    width:25%;
+    color: lightgrey;
 }
 
 .card-two {
