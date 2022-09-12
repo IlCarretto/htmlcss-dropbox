@@ -43,6 +43,10 @@ button{
     margin: 0 auto;
 }
 
+.margin-top{
+    margin-top: 50px;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -147,8 +151,16 @@ header {
     border: 1px solid lightgrey;
 }
 
+/* .card-content *:not(hr, .free-2){
+    padding: .3rem;
+} */
+
 .card-content li{
     font-size: .9rem;
+}
+
+.price li:nth-child(2){
+    color: grey;
 }
 
 .free-2{
@@ -157,9 +169,7 @@ header {
 }
 
 .card-content .single{
-    text-align: center;
     font-size: .9rem;
-    padding: 10px;
     border-bottom: 1px solid lightgrey;
 }
 
@@ -171,39 +181,60 @@ header {
     display: block;
 }
 
+.card-content button + span{
+    font-size: .9rem;
+}
+
+.card-content a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.points i{
+    color: blue;
+}
+
 hr {
     width:25%;
-    color: lightgrey;
 }
 
 .card-two {
     width: 100%;
     height: 150px;
+    border: 1px solid lightgrey;
+}
 
-    /* DEBUG */
-    background-color: darkmagenta;
+.card-content p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* Third-Section */
+#partner{
+    width: 80%;
 }
 
 /* Fourth-Section */
 .col-2 {
     width: 30%;
-    min-height: 300px;
     margin-top: 10px;
-
-    background-color: blue;
-}
-
-.card-two {
-    width: 100%;
-    height: 150px;
-
-    /* DEBUG */
-    background-color: darkmagenta;
 }
 
 /* Fifth-Section */
 .adv-section{
     display: flex;
+}
+
+.last-section-head{
+    padding: 100px 0px;
+}
+
+.last-section-head h1{
+    font-size: 2.4rem;
+}
+
+.last-section-head span{
+    
 }
 
 .square {
