@@ -108,19 +108,128 @@ header {
 /* Second-Section */
 .row {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .col {
-    width: calc(100% / 3 - 20px);
+    width: 30%;
     min-height: 500px;
-    margin-right: 20px;
 
     background-color: blue;
 }
 
 .card-two {
-    height: 100px;
+    width: 100%;
+    height: 150px;
 
     /* DEBUG */
     background-color: darkmagenta;
+}
+
+/* Fourth-Section */
+.col-2 {
+    width: 30%;
+    min-height: 300px;
+    margin-top: 10px;
+
+    background-color: blue;
+}
+
+.card-two {
+    width: 100%;
+    height: 150px;
+
+    /* DEBUG */
+    background-color: darkmagenta;
+}
+
+/* Fifth-Section */
+.adv-section{
+    display: flex;
+}
+
+.square {
+    width: calc(100% / 3);
+    display: flex;
+
+    /* DEBUG */
+    background-color: red;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.square-2 {
+    width: calc(100% / 2);
+}
+
+.last-section-foot{
+    height: 200px;
+
+    background-color: #b4d0e7;
+}
+
+/* DEBUG */
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.color-1{
+    background-color: aliceblue;
+}
+
+.color-2{
+    background-color: #0061ff;
+}
+
+.color-3{
+    background-color: violet;
+}
+
+.color-4{
+    background-color: tomato;
+}
+
+/* FOOTER */
+/* Footer-Top */
+.footer-top{
+    display: flex;
+    justify-content: center;
+}
+
+.faq {
+    width: 600px;
+    height: 300px;
+
+    /* DEBUG */
+    background-color: palevioletred;
+}
+
+/* Footer-Bot */
+.footer-bot{
+    min-height: 500px;
+
+    background-color: black;
+}
+
+.list{
+    height: 300px;
+
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.language{
+    height: 50px;
+
+    /* DEBUG */
+    background-color: beige;
 }
