@@ -89,6 +89,7 @@ header {
 .text-box {
     width: 30%;
     min-height: 300px;
+    display: flex;
 
     /* DEBUG */
     background-color: pink;
