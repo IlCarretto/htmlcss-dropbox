@@ -23,11 +23,32 @@ a {
     text-decoration: none;
 }
 
+button{
+    font-size: 1.1rem;
+    border-style: none;
+    padding: .5rem 1rem;
+    background-color: #0061ff;
+    color: white;
+}
+
+.bigger-container{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.smaller-container{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     /* DEBUG */
     background-color: red;
@@ -37,7 +58,6 @@ header {
     height: 50px;
     width: 150px;
     display: flex;
-    align-self: center;
     margin-left: 10px;
 
     /* DEBUG */
@@ -45,10 +65,62 @@ header {
 }
 
 .header-nav {
-    width: 300px;
     height: 50px;
+    width: 300px;
     display: flex;
 
     /* DEBUG */
     background-color: yellowgreen;
+}
+
+/* MAIN */
+/* First-Section */
+.first-section{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    background-color: #b4d0e7;
+}
+
+.img-and-text {
+    display: flex;
+}
+
+.text-box {
+    width: 30%;
+    min-height: 300px;
+
+    /* DEBUG */
+    background-color: pink;
+}
+
+.img-box {
+    width: 70%;
+    min-height: 300px;
+
+    /* DEBUG */
+    background-color: aquamarine;
+}
+
+/* Second-Section */
+.row {
+    display: flex;
+}
+
+.col {
+    width: calc(100% / 3 - 20px);
+    min-height: 500px;
+    margin-right: 20px;
+
+    background-color: blue;
+}
+
+.card-two {
+    height: 100px;
+
+    /* DEBUG */
+    background-color: darkmagenta;
 }
