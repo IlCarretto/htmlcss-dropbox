@@ -72,13 +72,14 @@ header {
 /* MAIN */
 /* First-Section */
 .first-section{
-    height: 500px;
-    width: 100%;
     text-align: center;
     display: flex;
-    align-items: center;
-
     background-color: #b4d0e7;
+}
+
+.first-section h1{
+    font-weight: 900;
+    font-size: 5rem;
 }
 
 .img-and-text {
@@ -91,6 +92,10 @@ header {
 
     /* DEBUG */
     background-color: pink;
+}
+
+.text-box > *{
+    display: flex;
 }
 
 .img-box {
