@@ -27,6 +27,10 @@ button{
     color: white;
 }
 
+.start:hover, .free:hover, .free-2:hover{
+    background-color: #002f7a;
+}
+
 .bigger-container{
     width: 70%;
     max-width: 1200px;
@@ -69,6 +73,11 @@ header {
 .header-nav ul li{
     display: inline-block;
     padding-right: 1rem;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: unset;
 }
 
 .start{
@@ -131,14 +140,18 @@ header {
 
 .grid h2{
     font-size: 2.4rem;
-    padding: 1rem;
+    padding: .5rem;
     font-weight: 600;
 }
 
 .grid input{
-    margin: 50px 10px;
-    padding: 1rem;
+    margin: 4rem .5rem;
+    padding: .5rem;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
 }
+
 
 .row {
     display: flex;
