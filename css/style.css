@@ -169,7 +169,7 @@ header {
     font-size: .9rem;
 }
 
-.card-content .single{
+#single{
     font-size: .9rem;
     border-bottom: 1px solid lightgrey;
 }
@@ -207,6 +207,14 @@ header {
 .card-content p{
     font-weight: 300;
     font-size: 1rem;
+}
+
+.card-content:not(#single){
+    padding: 1.2rem;
+}
+
+div[class$="group"] *:not(hr){
+    padding: .3rem 0;
 }
 
 /* Third-Section */
@@ -316,9 +324,10 @@ header {
 /* FOOTER */
 /* Footer-Top */
 .footer-top{
+    min-height: 800px;
     display: flex;
     justify-content: center;
-    padding: 10rem 0;
+    align-items: center;
 }
 
 .faq ul h1{
@@ -327,7 +336,6 @@ header {
 }
 
 .faq{
-    height: 300px;
     display: flex;
 }
 
