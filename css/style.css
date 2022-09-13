@@ -172,6 +172,7 @@ header {
 .single{
     font-size: .9rem;
     border-bottom: 1px solid lightgrey;
+    text-align: center;
 }
 
 .card-content h1, h4{
@@ -202,6 +203,7 @@ header {
 .card-two {
     width: 100%;
     border: 1px solid lightgrey;
+    margin-top: 2rem;
 }
 
 .card-content p{
@@ -211,14 +213,16 @@ header {
 
 .card-content{
     padding: 2em;
+    padding-top: 0;
 }
 
 .card-content *{
-    margin-top: .8rem;
+    margin-top: 1.2rem;
 }
 
 .card-content .single{
     margin-top: 0;
+    padding-bottom: .5em;
 }
 
 /* Third-Section */
