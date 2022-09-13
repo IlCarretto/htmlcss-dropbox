@@ -297,6 +297,22 @@ header {
     background-color: #b4d0e7;
 }
 
+.img-and-text-2{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.img-box-2{
+    width: 50%;
+}
+
+.text-box-2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .last-section-foot h1{
     color: #61082b;
 }
