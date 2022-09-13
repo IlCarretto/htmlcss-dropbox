@@ -148,7 +148,7 @@ header {
 
 .col {
     width: 30%;
-    min-height: 500px;
+    min-height: 600px;
     border: 1px solid lightgrey;
 }
 
@@ -169,7 +169,7 @@ header {
     font-size: .9rem;
 }
 
-#single{
+.single{
     font-size: .9rem;
     border-bottom: 1px solid lightgrey;
 }
@@ -209,12 +209,12 @@ header {
     font-size: 1rem;
 }
 
-.card-content:not(#single){
-    padding: 1.2rem;
+.card-content:not(#single) *{
+    margin-top: .6rem;
 }
 
-div[class$="group"] *:not(hr){
-    padding: .3rem 0;
+div[class$="group"]:not(hr){
+    padding: 1rem;
 }
 
 /* Third-Section */
