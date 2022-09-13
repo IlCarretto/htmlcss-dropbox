@@ -209,12 +209,16 @@ header {
     font-size: 1rem;
 }
 
-.card-content:not(#single) *{
-    margin-top: .6rem;
+.card-content{
+    padding: 2em;
 }
 
-div[class$="group"]:not(hr){
-    padding: 1rem;
+.card-content *{
+    margin-top: .8rem;
+}
+
+.card-content .single{
+    margin-top: 0;
 }
 
 /* Third-Section */
