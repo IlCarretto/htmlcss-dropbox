@@ -75,7 +75,7 @@ header {
     align-items: center;
 }
 
-.header-nav ul li{
+.header-nav .nav li{
     display: inline-block;
     padding-right: 1rem;
 }
@@ -87,6 +87,21 @@ header {
 
 .start{
     margin-right: 10px;
+}
+
+/* Submenu */
+.submenu {
+    position: relative;
+}
+
+.col-menu {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+
+.col-menu {
+    display: flex;
 }
 
 /* MAIN */
@@ -244,6 +259,10 @@ header {
     padding-bottom: .5em;
 }
 
+.card-content i{
+    margin-right: 5px;
+}
+
 /* Third-Section */
 #partner{
     width: 80%;
@@ -393,18 +412,24 @@ header {
 
 .faq ul h1{
     font-size: 2.4rem;
-    padding-bottom: 1rem;
 }
 
 .faq ul li{
     padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid grey;
 }
 
 .faq ul i {
-    padding-right: 1em;
+    margin-left: 30rem;
+}
+
+.faq p {
+    display: none;
+}
+
+.faq ul li:not(li:first-of-type):hover p{
+    display: block;
+    margin-top: 2rem;
 }
 
 /* Footer-Bot */
