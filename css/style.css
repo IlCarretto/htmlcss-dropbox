@@ -93,12 +93,23 @@ header {
 /* Submenu */
 .submenu {
     position: absolute;
-    min-height: 200px;
+    min-height: 100px;
     background-color: #eee9e2;
+    padding: 1rem;
+    display: none;
 }
 
 .submenu li:not(li:first-child) {
+    margin-top: 5px;
     font-size: .8rem;
+    display: block;
+}
+
+.second-submenu {
+    display: inline-block;
+}
+
+.nav li:hover .submenu{
     display: block;
 }
 
