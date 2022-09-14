@@ -47,6 +47,11 @@ button{
     margin-top: 50px;
 }
 
+/* UTILITIES */
+.tl {
+    text-align: left;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -93,6 +98,11 @@ header {
     padding-top: 80px;
 }
 
+.position{
+    position: relative;
+    bottom: -50px;
+}
+
 .first-section h1{
     font-weight: 900;
     font-size: 5rem;
@@ -105,7 +115,6 @@ header {
 
 .text-box {
     width: 30%;
-    min-height: 300px;
 }
 
 .text-box > *{
@@ -119,18 +128,12 @@ header {
 
 .text-box i {
     font-size: 3rem;
-    position: absolute;
     bottom: 1;
     margin-bottom: 10px;
 }
 
 .img-box {
     width: 70%;
-    min-height: 300px;
-}
-
-.img-box img{
-    width: 100%;
 }
 
 /* Second-Section */
