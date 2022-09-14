@@ -152,7 +152,6 @@ header {
     border-radius: 50%;
 }
 
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -161,7 +160,7 @@ header {
 
 .col {
     width: 30%;
-    min-height: 600px;
+    min-height: 100%;
     border: 1px solid lightgrey;
 }
 
@@ -194,6 +193,10 @@ header {
 
 .card-content span{
     display: block;
+}
+
+.card-content button{
+    width: 100%;
 }
 
 .card-content button + span{
@@ -390,16 +393,15 @@ header {
     padding-bottom: 1rem;
 }
 
-.faq{
-    display: flex;
-}
-
 .faq ul li{
     padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
 }
 
-.faq ul i{
-    padding-left: 10rem;
+.faq ul i {
+    padding-right: 1em;
 }
 
 /* Footer-Bot */
