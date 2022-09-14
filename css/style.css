@@ -197,10 +197,6 @@ header {
     border: 1px solid lightgrey;
 }
 
-/* .card-content *:not(hr, .free-2){
-    padding: .3rem;
-} */
-
 .card-content li{
     font-size: .9rem;
 }
@@ -250,7 +246,6 @@ header {
 }
 
 .card-two {
-    width: 100%;
     border: 1px solid lightgrey;
     margin-top: 2rem;
 }
