@@ -73,6 +73,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .header-nav .nav li{
@@ -91,17 +92,14 @@ header {
 
 /* Submenu */
 .submenu {
-    position: relative;
-}
-
-.col-menu {
     position: absolute;
-    top: 80px;
-    left: 160px;
+    min-height: 200px;
+    background-color: #eee9e2;
 }
 
-.col-menu {
-    display: flex;
+.submenu li:not(li:first-child) {
+    font-size: .8rem;
+    display: block;
 }
 
 /* MAIN */
