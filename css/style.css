@@ -301,7 +301,6 @@ header {
 }
 
 .adv-section img{
-    width: 100%;
     padding: 25%;
 }
 
@@ -322,7 +321,7 @@ header {
 
 .square {
     width: calc(100% / 3);
-    height: 33vw;
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -338,6 +337,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.square-middle {
+    overflow: auto;
 }
 
 .last-section-foot{
@@ -440,6 +443,10 @@ header {
 .faq ul li:not(li:first-of-type):hover p{
     display: block;
     margin-top: 2rem;
+}
+
+.faq ul li:not(li:first-of-type):hover i{
+    transform: rotate(180deg);
 }
 
 /* Footer-Bot */
